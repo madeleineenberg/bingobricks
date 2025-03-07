@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Bingobricks</h1>
+      </header>
         <p>Create your bingobricks here!</p>
         <BingoCard />
-      </header>
     </div>
   );
 }

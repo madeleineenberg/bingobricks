@@ -12,6 +12,16 @@
 }
 
 .bingo-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.bingo-card {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 5px;
