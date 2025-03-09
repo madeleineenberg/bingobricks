@@ -58,7 +58,7 @@ const BingoCard = () => {
 
   return (
     <div className='bingo-container'>
-      <p className='bingo-title'>Create your bingobricks here!</p>
+      <p className='bingo-title'>Generera dina bingobrickor här!</p>
       <div className='bingo-inputs'>
         <label className='bingo-label'>
           Antal brickor:

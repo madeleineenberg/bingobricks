@@ -9,7 +9,7 @@ function App() {
         <div className='App-title'>
           <h1>Bingobricks</h1>
         </div>
-        <div className="App-cta"><button>Play</button></div>
+        <div className="App-cta"><button>Spela</button></div>
       </header>
       <BingoCard />
     </div>
