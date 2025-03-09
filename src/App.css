@@ -1,30 +1,49 @@
 body {
   font-family: 'Lato', sans-serif;
+    background-color: #232025;
+    background-image: 
+        linear-gradient(rgba(203, 176, 246, 0.5) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(203, 176, 246, 0.5) 1px, transparent 1px);
+    background-size: 30px 30px; /* Storlek på rutorna */
 }
 
 h1 {
   font-family: 'Sigmar', sans-serif;
-}
-.App {
-  background-color: #232025;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:#cbb0f6;
+  letter-spacing: 2px;
+  margin: 0;
 }
 
-/* .App-header {
-  background-color: #232025;
-  min-height: 100vh;
+.App-header {
+  padding: 15px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+  background-color: #232025;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(249, 249, 249, 0.1) 1px, transparent 1px);
+                          background-size: 30px 30px; 
+}
+
+.App-cta button {
+  padding: 10px 30px;
+  background-color: #ff9fc2;
+  color: #faebe1;
+    font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+        0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+        0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+}
+
+.App {
+  color: #faebe1;
+}
 
 

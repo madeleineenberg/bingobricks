@@ -4,12 +4,14 @@ import BingoCard from './components/BingoCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Bingobricks</h1>
+    <div className='App'>
+      <header className='App-header'>
+        <div className='App-title'>
+          <h1>Bingobricks</h1>
+        </div>
+        <div className="App-cta"><button>Play</button></div>
       </header>
-        <p>Create your bingobricks here!</p>
-        <BingoCard />
+      <BingoCard />
     </div>
   );
 }

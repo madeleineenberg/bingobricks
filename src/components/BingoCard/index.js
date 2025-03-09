@@ -58,16 +58,18 @@ const BingoCard = () => {
 
   return (
     <div className='bingo-container'>
-      <h1 className='bingo-title'>Bingobricka</h1>
+      <p className='bingo-title'>Create your bingobricks here!</p>
       <div className='bingo-inputs'>
-        <label className='bingo-label'>Antal brickor:</label>
-        <input
-          type='number'
-          value={numCards}
-          onChange={(e) => setNumCards(Number(e.target.value))}
-          min='1'
-          className='bingo-input'
-        />
+        <label className='bingo-label'>
+          Antal brickor:
+          <input
+            type='number'
+            value={numCards}
+            onChange={(e) => setNumCards(Number(e.target.value))}
+            min='1'
+            className='bingo-input'
+          />
+        </label>
         <label className='bingo-label'>
           Storlek:
           <select
