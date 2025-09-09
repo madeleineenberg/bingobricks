@@ -77,6 +77,8 @@ const BingoCard = () => {
             onChange={(e) => setCardSize(Number(e.target.value))}
             className='bingo-select'
           >
+            <option value={4}>4x4</option>
+            <option value={5}>5x5</option>
             <option value={6}>6x6</option>
             <option value={7}>7x7</option>
           </select>
