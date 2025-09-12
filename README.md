@@ -1,4 +1,4 @@
-# Gnenerate bingo bricks for math bingo
+# Generate bingo bricks for math bingo
 
 
 # Getting Started with Create React App
